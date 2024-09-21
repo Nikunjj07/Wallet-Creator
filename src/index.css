@@ -1,0 +1,91 @@
+body{
+    background-color:rgb(231, 231, 231);
+}
+
+h1{
+    text-align: center;
+}
+
+.mnemonic-box{
+    display: flex;
+    justify-content:center;
+    flex-direction: row;
+    align-items:center;
+    
+}
+
+.mnemonic-input {
+    margin-right: 10px;
+    border: 2px solid #e8e8e8;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #212121;
+    font-size: small;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    width: 60%;
+    display: block;
+}
+
+.generate-button,.sol-button,.eth-button {
+    margin: 10px;
+    color: #ecf0f1;
+    font-size: 17px;
+    background-color: #212121;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    padding: 10px;
+    transition: all 50ms;
+    width: 200px;
+    height: fit-content;
+   }
+   
+.generate-button,.sol-button,.eth-button :active {
+    box-shadow: 0px 2px 0px #787878;
+    position: relative;
+    top: 2px;
+}
+
+.wallet-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.solana-wallet{
+    background-color: whitesmoke;
+    display: inline-block;
+    width: 50%;
+    word-wrap: break-word;
+    border: 1px solid black;
+}
+.eth-wallet{
+    background-color: whitesmoke;
+    display: inline-block;
+    width: 50%;
+    border: 1px solid black;
+    word-wrap: break-word;
+
+}
+
+.address{
+    padding: 2px 2px 2px 2px;
+    background-color: rgb(227, 228, 228);
+    border-radius: 10px;
+    word-wrap: break-word;
+    margin: 10px 10px 10px 10px;
+}
+
+.wallet-shift{
+    background-color: #212121;
+    display: flex;
+    justify-content: space-around;
+}
+
+.wallet-shift-button{
+    width: 100%;
+    height: 50px;
+    font-size: large;
+    border: solid 1px;
+
+}
