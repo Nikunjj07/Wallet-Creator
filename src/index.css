@@ -4,6 +4,11 @@ body{
 
 h1{
     text-align: center;
+    margin-bottom: 10px;
+}
+h3{
+    text-align: center;
+    margin-top: 0px;
 }
 
 .mnemonic-box{
