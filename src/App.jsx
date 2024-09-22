@@ -11,6 +11,7 @@ function App() {
     <>
       <div>
         <h1 className='heading'>Wallet Creator</h1>
+        <h3>-by Nikunj</h3>
       </div>
       <div className='mnemonic-box'>
         <input className='mnemonic-input' type="text" value={mnemonic}></input>
